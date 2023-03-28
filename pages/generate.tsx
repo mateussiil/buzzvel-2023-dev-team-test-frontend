@@ -129,7 +129,6 @@ export default function Document() {
             height={200} 
             src={qrCodeImageUrl} 
             alt="QR code" />
-          // <img className="mt-8" src={qrCodeImageUrl}  />
         )}
       </main>
     </div>
