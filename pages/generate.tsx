@@ -25,7 +25,7 @@ export default function Document() {
       return setErrors(res.error);
     }
 
-    const url = window.location.href + user.name
+    const url = window.location.origin + '/' + user.name
 
     try {
       const imageUrl = await QRCode.toDataURL(url)
