@@ -123,7 +123,12 @@ export default function Document() {
         </form>
 
         {qrCodeImageUrl && (
-          <Image className="mt-8" src={qrCodeImageUrl} alt="QR code" />
+          <Image 
+            className="mt-8"
+            width={200}
+            height={200} 
+            src={qrCodeImageUrl} 
+            alt="QR code" />
           // <img className="mt-8" src={qrCodeImageUrl}  />
         )}
       </main>
