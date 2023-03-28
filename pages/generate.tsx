@@ -5,6 +5,7 @@ import { FormEventHandler, useState } from 'react'
 import QRCode from 'qrcode'
 import { createUser } from '@/services/users/createUser'
 import Errors from '@/components/Error'
+import Image from 'next/image'
 
 export default function Document() {
   const [user, setUser] = useState({ name: '', linkedin_url: '', github_url: '' })
@@ -122,7 +123,8 @@ export default function Document() {
         </form>
 
         {qrCodeImageUrl && (
-          <img className="mt-8" src={qrCodeImageUrl} alt="QR code" />
+          <Image className="mt-8" src={qrCodeImageUrl} alt="QR code" />
+          // <img className="mt-8" src={qrCodeImageUrl}  />
         )}
       </main>
     </div>

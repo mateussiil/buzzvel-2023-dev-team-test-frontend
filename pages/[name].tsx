@@ -1,8 +1,8 @@
+import { UserSaved } from '@/model/user';
 import { getUser } from '@/services/users/getUsers';
-import { environment } from '@/utils/environment'
 
 type Props = {
-  user: any | null
+  user: UserSaved | null
 };
 
 export default function User({ user }: Props) {

@@ -1,5 +1,7 @@
 import { ResultFromApi } from "@/model/common"
 
-export const getErrors = <T>(errors: Pick<ResultFromApi<unknown>, "errors">): string[] => {
-  return Object.entries(errors).flatMap(([_, value]) => value)
+export const getErrors = <T>(errors: ResultFromApi<unknown>["errors"]): string[] => {
+  if(!errors) return [];
+  
+  return Object.values(errors).flat();
 }
