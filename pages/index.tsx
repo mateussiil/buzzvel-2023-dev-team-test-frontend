@@ -10,7 +10,7 @@ export default function Document() {
         </h1>
 
         <p className="mb-8 dark:text-white font-light lg:text-xl">Hello, my name is <span className="text-gray-500 font-bold">Mateus Oliveira</span>. {"I'm"} fullstack engineer.</p>  
-        <p className="mb-8 dark:text-white font-light lg:text-xl">I created this project as test for Buzz</p>
+        <p className="mb-8 dark:text-white font-light lg:text-xl">I created this project as test for Buzzvel</p>
 
         <Link className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" href={"/generate"}>
             Create your qr-code

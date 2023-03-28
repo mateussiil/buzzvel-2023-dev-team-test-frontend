@@ -1,5 +1,5 @@
 export const environment = {
   api:{
-    URLBase: 'http://localhost:8989'
+    URLBase: process.env.BACKEND_URL
   }
 }
