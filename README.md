@@ -1,6 +1,6 @@
 The Backend you can find in 
 
-[Backend](https://github.com/mateussiil/buzz-2023-dev-team-test-frontend)
+[Backend](https://github.com/mateussiil/buzzvel-2023-dev-team-test-frontend)
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/
