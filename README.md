@@ -1,12 +1,27 @@
-You need first the backend, and you can find in [Backend](https://github.com/mateussiil/buzzvel-2023-dev-team-test-frontend)
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/
-create-next-app).
+You need first run the backend, and you can find in [Backend](https://github.com/mateussiil/buzzvel-2023-dev-team-test-backend)
 
 ## Getting Started
 
-First, install the dependencies:
+Clone Repository
+```sh
+git clone [https://github.com/mateussiil/buzz-2023-dev-team-test-frontend.git](https://github.com/mateussiil/buzzvel-2023-dev-team-test-frontend) app-frontend
+```
 
+```sh
+cd app-frontend/
+```
+
+Create the .env file
+```sh
+cp .env.example .env
+```
+
+Update .env file environment variables
+```
+NEXT_PUBLIC_BACKEND_URL=http://localhost:8989
+```
+
+Install the dependencies:
 
 ```bash
 npm install
@@ -14,7 +29,7 @@ npm install
 yarn install
 ```
 
-Second, run the development server:
+Run the development server:
 
 ```bash
 npm run dev
@@ -31,7 +46,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - [/name](http://localhost:3000/name): where get info about the user
 
 
-Upload the project containers
+if you want run the project in containers
 ```sh
 docker build -t buzz-frontend .
 ```
