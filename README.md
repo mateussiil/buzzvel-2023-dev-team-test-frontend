@@ -4,7 +4,7 @@ You need first run the backend, and you can find in [Backend](https://github.com
 
 Clone Repository
 ```sh
-git clone [https://github.com/mateussiil/buzz-2023-dev-team-test-frontend.git](https://github.com/mateussiil/buzzvel-2023-dev-team-test-frontend) app-frontend
+git clone https://github.com/mateussiil/buzzvel-2023-dev-team-test-frontend.git app-frontend
 ```
 
 ```sh
